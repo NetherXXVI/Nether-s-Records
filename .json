@@ -1,0 +1,18 @@
+{
+  "code": "NTR-2025-0001",
+  "title": "Example Record Title",
+  "artist": "Artist Name",
+  "release_date": "2025-12-28",
+  "format": "digital",
+  "files": [
+    {
+      "filename": "example-track-1.mp3",
+      "size_bytes": 4123456,
+      "sha256": "PUT_SHA256_HERE"
+    }
+  ],
+  "tier": "subscription: premium",
+  "notes": "First example record",
+  "created_by": "NetherXXVI",
+  "created_at": "2025-12-28T12:00:00Z"
+}
