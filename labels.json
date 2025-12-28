@@ -1,0 +1,17 @@
+curl -X POST \
+  -H "Authorization: token YOUR_TOKEN" \
+  -H "Accept: application/vnd.github+json" \
+  https://api.github.com/repos/NetherXXVI/Nether-s-Records/labels \
+  -d '{"name":"subscription: standard","color":"0366d6","description":"Standard features for individual creators"}'
+
+curl -X POST \
+  -H "Authorization: token YOUR_TOKEN" \
+  -H "Accept: application/vnd.github+json" \
+  https://api.github.com/repos/NetherXXVI/Nether-s-Records/labels \
+  -d '{"name":"subscription: premium","color":"ffbf00","description":"All features + priority support"}'
+
+curl -X POST \
+  -H "Authorization: token YOUR_TOKEN" \
+  -H "Accept: application/vnd.github+json" \
+  https://api.github.com/repos/NetherXXVI/Nether-s-Records/labels \
+  -d '{"name":"subscription: enterprise","color":"d73a49","description":"Team/label plan with advanced features & billing"}'
